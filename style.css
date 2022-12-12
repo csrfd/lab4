@@ -1,0 +1,62 @@
+body {
+    font: 20px sans-serif;
+}
+
+form {
+    padding: 5px;
+    width: 100%;
+    max-width: 480px;
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.oneItem label {
+    width: 100%;
+}
+
+.twoItems label {
+    width: 48%;
+}
+
+.threeItems label {
+    width: 30%;
+}
+
+.label {
+    font-weight: bold;
+}
+
+input[type=checkbox] {
+    margin: 0 4px 0 0;
+    background-color: whitesmoke;
+}
+
+input:not([type=checkbox]), textarea {
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+.checkbox {
+    display: flex;
+    font-size: 15px;
+}
+
+button {
+    padding: 11px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}

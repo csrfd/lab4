@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <div class="row label">
+            Full name
+        </div>
+        <div class="row twoItems">
+            <label>
+                <input type="text" name="firstName" placeholder="First Name">
+            </label>
+            <label>
+                <input type="text" name="lastName" placeholder="Last Name">
+            </label>
+        </div>
+        <div class="row label">
+            Address
+        </div>
+        <div class="row oneItem">
+            <label>
+                <input type="text" name="street" placeholder="Street Address">
+            </label>
+        </div>
+        <div class="row threeItems">
+            <label>
+                <input type="text" name="city" placeholder="City">
+            </label>
+            <label>
+                <input type="text" name="state" placeholder="State">
+            </label>
+            <label>
+                <input type="text" name="zip" placeholder="ZIP code">
+            </label>
+        </div>
+        <div class="row label">
+            Contact information
+        </div>
+        <div class="row twoItems">
+            <label>
+                <input type="email" name="email" placeholder="Email*" required>
+            </label>
+            <label>
+                <input type="text" name="phone" placeholder="Phone">
+            </label>
+        </div>
+        <div class="row label">
+            Questions / Comments
+        </div>
+        <div class="row oneItem">
+            <label>
+                <textarea name="comment" placeholder="Message*" rows="4" required></textarea>
+            </label>
+        </div>
+        <div class="row">
+            <div class="checkbox">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Update me on deals and special offers via email.</label>
+            </div>
+        </div>
+        <div class="row">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
